@@ -8,7 +8,7 @@ function App() {
      <div className='content-container'>
       <Navbar></Navbar>
      </div>
-     <div className="for-ground"></div>
+     <div className="foreground"></div>
     </div>
   );
 }

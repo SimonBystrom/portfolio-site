@@ -1,6 +1,7 @@
 import './App.scss';
 import Navbar from './components/navbar'
 import IntroCard from './components/introCard'
+import AboutCard from './components/aboutCard'
 
 function App() {
   return (
@@ -8,15 +9,8 @@ function App() {
      <div className='content-wrapper'>
       <Navbar></Navbar>
       <div className='content-container'>
-        <div className='introCard-container'>
-          <IntroCard></IntroCard>
-        </div>
-        <div className='introCard-container'>
-          <IntroCard></IntroCard>
-        </div>
-        <div className='introCard-container'>
-          <IntroCard></IntroCard>
-        </div>
+        <IntroCard></IntroCard>
+        <AboutCard></AboutCard>
       </div>
      </div>
      <div className="foreground"></div>

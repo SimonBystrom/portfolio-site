@@ -7,7 +7,9 @@
     height: 60px;
     font-size: 24px;
     color: black;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 
     a{
         font-size: 18px;
@@ -26,6 +28,10 @@
         bottom: 0;
         border-bottom: 2px solid black;
     }
+}
+
+.scrolled {
+  background-color: white;
 }
 
 .hamburger-menu{

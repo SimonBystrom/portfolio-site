@@ -3,23 +3,31 @@ import React, {useState} from 'react'
 
 const Navbar = () => {
     const [opened, setOpened] = useState(false)
+    const [scrolled, setScrolled] = useState(false)
 
     const openLinks = () => setOpened(!opened)
 
+    window.addEventListener('scroll', () => {
+        if(window.scrollY >= 100) {
+            setScrolled(true)
+        } else {
+            setScrolled(false) 
+        }
+    })
+    
+
     return (
-        <nav> 
-            <div className='navbar'>
-                <div className={opened ? 'hamburger-menu open' : 'hamburger-menu'} onClick={openLinks}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div className={ opened ? 'navbar-links active' : 'navbar-links' }>
-                    <a href='#'>About</a>
-                    <a href='#'>Work</a>
-                    <a href='#'>Contact</a>
-                </div>
+        <nav className={scrolled ? 'navbar scrolled' : 'navbar'}>
+            <div className={opened ? 'hamburger-menu open' : 'hamburger-menu'} onClick={openLinks}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className={ opened ? 'navbar-links active' : 'navbar-links' }>
+                <a href='#'>About</a>
+                <a href='#'>Work</a>
+                <a href='#'>Contact</a>
             </div>
         </nav>
     )

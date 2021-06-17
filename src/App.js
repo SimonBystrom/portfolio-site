@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="App">
      <div className='content-wrapper'>
-      <Navbar></Navbar>
+      <Navbar />
       <div className='content-container'>
-        <IntroCard></IntroCard>
-        <AboutCard></AboutCard>
+        <IntroCard />
+        <AboutCard />
       </div>
      </div>
      <div className="foreground"></div>

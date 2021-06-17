@@ -8,8 +8,8 @@ const AboutCard = () => {
                         <h2>About Me</h2>
                         <p>💻 I am a full-stack developer</p> 
                         <p>🥋 A judo black-belt</p>
-                        <p>💅 With a passion for puzzle solving and nice, clean design!</p>
-                        <p>🎬 I have a background in design and animation and movie history</p>
+                        <p>💅 Passion for puzzle solving and nice clean design!</p>
+                        <p>🎬 I have a background in design, animation and movie history</p>
                 </div>
                 <div className="col-sm-8 col-md-12 col-lg-6 about-skills">
                     <i className="fab fa-js-square"></i>

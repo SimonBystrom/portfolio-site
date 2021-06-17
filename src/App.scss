@@ -1,15 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 @import "css/navbar.scss";
-.background-gradient{
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
+@import "css/introCard.scss";
+@import "css/containers.scss";
+
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background: rgb(134,231,184);
-    background: linear-gradient(35deg, rgba(134,231,184,1) 13%, rgba(0,148,198,1) 38%, rgba(245,100,118,1) 70%, rgba(184,134,231,1) 100%);
-  
-    position: relative;
+    background: linear-gradient(35deg, rgba(134,231,184,1) 13%, rgba(0,148,198,1) 45%, rgba(250,172,182,1) 70%, rgba(184,134,231,1) 100%);
     background-size: 450%;
     animation: background-gradient-anim 140s infinite;
+    position: relative;
 }
 
 @keyframes background-gradient-anim{
@@ -28,16 +30,15 @@
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     background: rgb(255,255,255);
     background: linear-gradient(82deg, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%);
     width:100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.content-container{
-    position:absolute;
-    top:0;
-    left:0;
+.content-wrapper{
+    width: 100%;
     z-index: 1;
 }
 

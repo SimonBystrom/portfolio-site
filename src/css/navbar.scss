@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    align-items: center;
+    // align-items: center;
     flex-wrap: nowrap;
     width: 50vw;
     background-color: transparent;
@@ -8,6 +8,24 @@
     font-size: 24px;
     color: black;
     position: relative;
+
+    a{
+        font-size: 18px;
+        font-weight: 200;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        position: relative;
+       
+    }
+    a:hover:after{
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-bottom: 2px solid black;
+    }
 }
 
 .hamburger-menu{

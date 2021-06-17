@@ -5,7 +5,8 @@
     width: 100vw;
     height: 100vh;
     background: rgb(134,231,184);
-    background: linear-gradient(35deg, rgba(134,231,184,1) 13%, rgba(0,148,198,1) 38%, rgba(245,100,118,1) 70%, rgba(228,63,111,1) 100%);
+    background: linear-gradient(35deg, rgba(134,231,184,1) 13%, rgba(0,148,198,1) 38%, rgba(245,100,118,1) 70%, rgba(184,134,231,1) 100%);
+  
     position: relative;
     background-size: 450%;
     animation: background-gradient-anim 140s infinite;

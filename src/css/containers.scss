@@ -1,0 +1,19 @@
+.introCard-container{
+    margin-top: 12em;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 4.5em;
+        font-weight:600;
+        text-shadow: 2px 2px 4px rgba(143, 116, 166, 0.6);
+        margin-bottom: 0;
+    }
+    h2{
+        font-style:italic;
+        margin-bottom: 0;
+        
+    }
+}

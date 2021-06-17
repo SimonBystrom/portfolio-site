@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "css/navbar.scss";
+@import "css/introCard.scss";
 
 .App{
     display: flex;
@@ -40,26 +41,22 @@
     z-index: 1;
 }
 
-// .content-container{
-//     width: 100%;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-// }
-
 .introCard-container{
-    // margin-top: 40%;
+    margin-top: 12em;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     h1{
         font-size: 4.5em;
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        font-weight:600;
+        text-shadow: 2px 2px 4px rgba(143, 116, 166, 0.6);
+        margin-bottom: 0;
     }
     h2{
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        font-style:italic;
+        margin-bottom: 0;
+        
     }
 }

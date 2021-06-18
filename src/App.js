@@ -2,6 +2,7 @@ import './App.scss';
 import Navbar from './components/navbar'
 import IntroCard from './components/introCard'
 import AboutCard from './components/aboutCard'
+import ProjectCard from './components/projectCard'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className='content-container'>
         <IntroCard />
         <AboutCard />
+        <ProjectCard />
       </div>
      </div>
      <div className="foreground"></div>

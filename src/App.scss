@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100vw;
     background: rgb(134,231,184);
     background: linear-gradient(35deg, rgba(134,231,184,1) 13%, rgba(0,148,198,1) 45%, rgba(250,172,182,1) 70%, rgba(184,134,231,1) 100%);
     background-size: 450%;
@@ -44,5 +45,6 @@
     position: relative;
     width: 100%;
     z-index: 1;
+    overflow: hidden;
 }
 

@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
 
   return(
     <div id="work" className="project-card-container">
-      <div className="row justify-content-between">
+      <div className="row justify-content-around">
         <div className="col-sm-12 col-md-6 ">
 
         </div>

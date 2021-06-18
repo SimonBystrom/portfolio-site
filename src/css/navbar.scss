@@ -8,7 +8,6 @@
     position: sticky;
     top: 0;
     z-index: 5;
-
     a{
         font-size: 18px;
         font-weight: 200;
@@ -29,7 +28,17 @@
 }
 
 .scrolled {
+    animation: scrolled-activate 1s;
+    background-size: 200%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 100%);
+}
+@keyframes scrolled-activate {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 .hamburger-menu{

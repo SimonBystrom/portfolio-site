@@ -14,10 +14,14 @@
         border-bottom: 3px solid black;
     }
     p{
-        font-size: 22px;
-        line-height: 40px;
+        font-size: 18px;
+        line-height: 32px;
         letter-spacing: 2px;
         color: black;
+    }
+    span{
+        padding-bottom: 4px;
+        border-bottom: 2px solid rgba(0,0,0,0.6);
     }
 }
 

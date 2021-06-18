@@ -6,10 +6,13 @@ const AboutCard = () => {
             <div className="row justify-content-around p-5">
                 <div className="col-sm-12 col-md-12 col-lg-6 about-card">
                         <h2>About Me</h2>
-                        <p>💻 I am a full-stack developer</p> 
-                        <p>🥋 A judo black-belt</p>
-                        <p>💅 Passion for puzzle solving and nice clean design!</p>
-                        <p>🎬 I have a background in design, animation and movie history</p>
+                        <h5><span>Hi, I’m Simon! </span></h5>
+                        <p>Originally from Sweden 🇸🇪, but been living in Tokyo 🇯🇵 since 2015.</p>
+                        <h5><span>Background</span></h5>
+                        <p>Animation, design and movie history but my true love is code! 
+                            I really love working on Frontend solutions and solving the puzzles of the backend.</p>
+                        <h5><span>When I’m not coding</span></h5>
+                        <p> I also love Judo, Video games and fine Cocktails!</p>
                 </div>
                 <div className="col-sm-8 col-md-12 col-lg-6 about-skills">
                     <i className="fab fa-js-square"></i>

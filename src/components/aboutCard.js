@@ -15,11 +15,22 @@ const AboutCard = () => {
                         <p> I also love Judo, Video games and fine Cocktails!</p>
                 </div>
                 <div className="col-sm-8 col-md-12 col-lg-6 about-skills">
-                    <i className="fab fa-js-square"></i>
-                    <i className="fab fa-css3-alt"></i>
-                    <i className="fab fa-html5"></i>
-                    <i className="fab fa-react"></i>
-                    <i className="fab fa-bootstrap"></i>
+                    <h2>Languages</h2>
+                    <div className="mb-3 skill-icon-container">
+                        <i className="devicon-javascript-plain"></i>
+                        <i className="devicon-html5-plain"></i>
+                        <i className="devicon-css3-plain"></i>
+                        <i className="devicon-ruby-plain"></i>
+                        <i className="devicon-postgresql-plain"></i>
+                    </div>
+                    <h2>Frameworks and Libraries</h2>
+                    <div className="skill-icon-container">
+                        <i className="devicon-react-original"></i>
+                        <i className="devicon-rails-plain"></i>
+                        <i className="devicon-bootstrap-plain"></i>
+                        <i className="devicon-git-plain"></i>
+                        <i className="devicon-github-original"></i>
+                    </div>
                 </div>
             </div>
         </div>

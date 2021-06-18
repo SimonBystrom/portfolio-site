@@ -3,7 +3,7 @@ import React from 'react'
 const AboutCard = () => {
     return(
         <div className="about-card-container">
-            <div className="row justify-content-around p-5">
+            <div className="row justify-content-around align-items-end p-5">
                 <div className="col-sm-12 col-md-12 col-lg-6 about-card">
                         <h2>About Me</h2>
                         <h5><span>Hi, I’m Simon! </span></h5>
@@ -16,7 +16,7 @@ const AboutCard = () => {
                 </div>
                 <div className="col-sm-8 col-md-12 col-lg-6 about-skills">
                     <h2>Languages</h2>
-                    <div className="mb-3 skill-icon-container">
+                    <div className="mb-5 skill-icon-container">
                         <i className="devicon-javascript-plain"></i>
                         <i className="devicon-html5-plain"></i>
                         <i className="devicon-css3-plain"></i>

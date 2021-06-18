@@ -11,13 +11,13 @@ const Navbar = () => {
         if(window.scrollY >= 100) {
             setScrolled(true)
         } else {
-            setScrolled(false) 
+            setScrolled(false)
         }
     })
-    
+
 
     return (
-        <nav className={scrolled ? 'navbar scrolled' : 'navbar'}>
+        <nav className={(scrolled && opened) ? 'navbar scrolled' : 'navbar'}>
             <div className={opened ? 'hamburger-menu open' : 'hamburger-menu'} onClick={openLinks}>
                 <span></span>
                 <span></span>

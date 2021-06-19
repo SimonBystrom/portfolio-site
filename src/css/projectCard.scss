@@ -1,5 +1,14 @@
-.project-device{
+.project-device-iphone{
   height: 434px;
+  width: 214px;
+  margin-left: 48px;
+}
+
+@media(max-width: 768px){
+  .project-device{
+    margin-left: 0px;
+    margin-top: 40px;
+  }
 }
 
 .project-card-info{

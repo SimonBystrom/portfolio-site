@@ -15,6 +15,7 @@ function App() {
         <ProjectCard />
       </div>
      </div>
+     {/* <div className="gradient"></div> */}
      <div className="foreground"></div>
     </div>
   );

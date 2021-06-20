@@ -35,7 +35,7 @@ const AboutCard = () => {
           <div className="skill-icon-container">
             <i className="devicon-git-plain"></i>
             <i className="devicon-heroku-original"></i>
-            <i class="devicon-firebase-plain"></i>
+            <i className="devicon-firebase-plain"></i>
           </div>
         </div>
       </div>

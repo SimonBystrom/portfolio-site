@@ -25,8 +25,8 @@ const Navbar = () => {
                 <span></span>
             </div>
             <div className={ opened ? 'navbar-links active' : 'navbar-links' }>
-                <a href='#'>About</a>
-                <a href='#'>Work</a>
+                <a href='#about'>About</a>
+                <a href='#work'>Work</a>
                 <a href='#'>Contact</a>
             </div>
         </nav>

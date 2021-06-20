@@ -25,3 +25,41 @@
 .project-card-container{
       padding: 0px 100px;
 }
+
+
+.socials-container{
+  position: sticky;
+  transform: translateX(-165px);
+  top: 500px;
+  div{
+    background-color: red;
+    height: 160px;
+    width: 200px;
+    clip-path: polygon(100% 0, 100% 30%, 30% 100%, 0 100%);
+    background: linear-gradient(90deg, rgb(159, 159, 159) 70%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+  }
+
+  .github-icon {
+    position: absolute;
+    top: 23px;
+    left: 168px;
+    color: black;
+    font-size: 30px;
+  }
+  .linkedin-icon{
+    position: absolute;
+    top: 26px;
+    left: 172px;
+    color: black;
+    font-size: 26px;
+  }
+
+  .insta-icon{
+    position: absolute;
+    top: 23px;
+    left: 170px;
+    color: black;
+    font-size: 30px;
+  }
+}

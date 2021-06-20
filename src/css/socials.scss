@@ -1,0 +1,72 @@
+#github-social{
+ position: absolute;
+ top: 0;
+ transition: transform .4s ease-in-out;
+  &:hover{
+   transform: translate(30px, -24px);
+   cursor: pointer;
+  }
+  &:hover i {
+    opacity: 1;
+  }
+  span{
+    position:absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  i{
+    transition: opacity .2s ease-in-out;
+    opacity: 0.7;
+  }
+}
+
+#linkedin-social{
+ position: absolute;
+ top: 70px;
+ transition: transform .4s ease-in-out;
+  &:hover {
+    transform: translate(30px, -24px);
+    cursor: pointer;
+  }
+    &:hover i {
+      opacity: 1;
+    }
+    span {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+      i {
+        transition: opacity .2s ease-in-out;
+        opacity: 0.7;
+      }
+}
+
+#insta-social{
+ position: absolute;
+ top: 140px;
+ transition: transform .4s ease-in-out;
+  &:hover {
+    transform: translate(30px, -24px);
+    cursor: pointer;
+  }
+    &:hover i {
+      opacity: 1;
+    }
+    span {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+      i {
+        transition: opacity .2s ease-in-out;
+        opacity: 0.7;
+      }
+}

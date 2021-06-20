@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutCard = () => {
   return(
-    <div className="about-card-container">
+    <div id="about" className="about-card-container">
       <div className="row justify-content-around align-items-end p-5">
         <div className="col-sm-12 col-md-12 col-lg-6 about-card">
                 <h2>About Me</h2>

@@ -28,11 +28,12 @@ const AboutCard = () => {
               <i className="devicon-react-original"></i>
               <i className="devicon-rails-plain"></i>
               <i className="devicon-bootstrap-plain"></i>
-              <i className="devicon-git-plain"></i>
+
               <i className="devicon-github-original"></i>
           </div>
           <h2>Other technologies</h2>
           <div className="skill-icon-container">
+            <i className="devicon-git-plain"></i>
             <i className="devicon-heroku-original"></i>
             <i class="devicon-firebase-plain"></i>
           </div>

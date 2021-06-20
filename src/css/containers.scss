@@ -25,3 +25,16 @@
 .project-card-container{
       padding: 0px 100px;
 }
+
+
+.socials-container{
+  position: absolute;
+  left: -160px;
+  top: 300px;
+  div{
+    background-color: red;
+    height: 160px;
+    width: 200px;
+    clip-path: polygon(100% 0, 100% 30%, 30% 100%, 0 100%);
+  }
+}

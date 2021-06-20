@@ -1,0 +1,29 @@
+#github-social{
+ position: absolute;
+ top: 0;
+ transition: transform .4s ease-in-out;
+  &:hover{
+   transform: translate(30px, -24px);
+   cursor: pointer;
+  }
+}
+
+#linkedin-social{
+ position: absolute;
+ top: 70px;
+ transition: transform .4s ease-in-out;
+  &:hover {
+    transform: translate(30px, -24px);
+    cursor: pointer;
+  }
+}
+
+#wantedly-social{
+ position: absolute;
+ top: 140px;
+ transition: transform .4s ease-in-out;
+  &:hover {
+    transform: translate(30px, -24px);
+    cursor: pointer;
+  }
+}

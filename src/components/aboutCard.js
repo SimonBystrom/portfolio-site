@@ -16,7 +16,7 @@ const AboutCard = () => {
         </div>
         <div className="col-sm-8 col-md-12 col-lg-6 about-skills">
           <h2>Languages</h2>
-          <div className="mb-5 skill-icon-container">
+          <div className="mb-3 skill-icon-container">
               <i className="devicon-javascript-plain"></i>
               <i className="devicon-html5-plain"></i>
               <i className="devicon-css3-plain"></i>
@@ -24,12 +24,17 @@ const AboutCard = () => {
               <i className="devicon-postgresql-plain"></i>
           </div>
           <h2>Frameworks and Libraries</h2>
-          <div className="skill-icon-container">
+          <div className="mb-3 skill-icon-container">
               <i className="devicon-react-original"></i>
               <i className="devicon-rails-plain"></i>
               <i className="devicon-bootstrap-plain"></i>
               <i className="devicon-git-plain"></i>
               <i className="devicon-github-original"></i>
+          </div>
+          <h2>Other technologies</h2>
+          <div className="skill-icon-container">
+            <i className="devicon-heroku-original"></i>
+            <i class="devicon-firebase-plain"></i>
           </div>
         </div>
       </div>

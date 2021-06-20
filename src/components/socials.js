@@ -7,11 +7,13 @@ const Socials = () => {
         <i className="fab fa-github github-icon"></i>
         <a id="github-link" href="https://github.com/SimonBystrom" target="_blank" rel="noreferrer"><span></span></a>
       </div>
-      <div id="linkedin-social">
+      <div label="linkedin-link" id="linkedin-social">
         <i className="fab fa-linkedin-in linkedin-icon"></i>
+        <a id="linkedin-link" href="https://www.linkedin.com/in/simon-bokedal-bystrom/" target="_blank" rel="noreferrer"><span></span></a>
       </div>
-      <div id="insta-social">
-        <i class="fab fa-instagram insta-icon"></i>
+      <div label="insta-link" id="insta-social">
+        <i className="fab fa-instagram insta-icon"></i>
+        <a id="insta-link" href="https://www.instagram.com/simon.bystrom/" target="_blank" rel="noreferrer"><span></span></a>
       </div>
 
     </div>

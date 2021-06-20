@@ -36,10 +36,12 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git}) =>
           </div>
           <div className="d-flex mt-5">
             <div className="button mr-5" label="deployed">
-              <a id="deployed" href={deployed} target="_blank" rel="noreferrer">Site</a>
+              Site
+              <a id="deployed" href={deployed} target="_blank" rel="noreferrer"><span></span></a>
             </div>
             <div className="button git" label="git">
-              <a id="git" href={git} target="_blank" rel="noreferrer">Code</a>
+              Code
+              <a id="git" href={git} target="_blank" rel="noreferrer"><span></span></a>
             </div>
           </div>
         </div>

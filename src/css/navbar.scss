@@ -1,7 +1,8 @@
 .navbar{
     display: flex;
     flex-wrap: nowrap;
-    width: 50vw;
+    max-width: 50vw;
+    min-width: 200px;
     height: 60px;
     font-size: 24px;
     color: black;

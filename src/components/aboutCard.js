@@ -15,7 +15,7 @@ const AboutCard = () => {
                 <h5><span>When I’m not coding</span></h5>
                 <p> I also love Judo, Video games and fine Cocktails!</p>
         </div>
-        <div className="col-sm-8 col-md-8 col-lg-5 about-skills">
+        <div className="col-sm-12 col-md-8 col-lg-5 about-skills">
           <h2>Languages</h2>
           <div className="mb-3 skill-icon-container">
               <i className="devicon-javascript-plain"></i>

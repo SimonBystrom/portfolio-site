@@ -30,25 +30,26 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .project-device-macbook {
-    height: 172px;
-    width: 274px;
+    display: none;
+
   }
 }
 
-@media(max-width: 768px){
-  .project-device{
-    margin-left: 0px;
-    margin-top: 40px;
+@media (max-width: 450px) {
+  .project-device-iphone-8 {
+    display: none;
+
   }
 }
+
 
 
 
 
 .project-card-info{
-  max-height: 434px;
+  max-height: 450px;
   margin-bottom: 50px;
   // max-width: 600px;
   h1{

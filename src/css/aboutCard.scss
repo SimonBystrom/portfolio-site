@@ -26,7 +26,6 @@
 }
 
 .about-skills{
-    min-width: 400px;
     padding: 20px;
     opacity: 0.85;
     h2{
@@ -37,8 +36,20 @@
     }
 }
 
+
+
 .skill-icon-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, min(80px));
     grid-gap: 18px;
+}
+@media (max-width: 450px) {
+  .about-skills {
+    i {
+      font-size: 40px;
+    }
+  }
+  .skill-icon-container{
+    grid-gap: 8px;
+  }
 }

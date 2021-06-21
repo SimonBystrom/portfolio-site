@@ -23,7 +23,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
     <div  className="project-card-container">
       <span className="anchor" id="work"></span>
       <div className="row justify-content-around ">
-        <div className={device === 'iphone-8' ? "col-sm-12 col-md-8 col-lg-6 project-card-info" : "col-sm-12 col-md-8 col-lg-11 col-xl-6 project-card-info"}>
+        <div className={device === 'iphone-8' ? "col-sm-12 col-md-11 col-lg-6 project-card-info" : "col-sm-12 col-md-11 col-lg-11 col-xl-6 project-card-info"}>
           <h1>{title}</h1>
           <p>{description}</p>
           <div className="d-flex tech-icons flex-wrap">
@@ -42,7 +42,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
             </div>
           </div>
         </div>
-        <div className={device === 'iphone-8' ? 'col-sm-12 col-md-8 col-lg-4' : 'col-sm-12 col-md-12 col-lg-8 col-xl-5'}>
+        <div className={device === 'iphone-8' ? 'col-sm-12 col-md-12 col-lg-4' : 'col-sm-12 col-md-12 col-lg-8 col-xl-5'}>
           {renderDevice()}
         </div>
       </div>

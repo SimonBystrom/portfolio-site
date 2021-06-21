@@ -8,16 +8,14 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
         <div data-aos={device === "iphone-8" ? "zoom-in" : "flip-up"} className={`project-device-${device}`}>
           <div className={`device device-spacegray device-${device}`}>
             <div className="device-frame" onMouseEnter={() => setPlayVideo(true)} onMouseLeave={() => setPlayVideo(false)}>
-                  {/* <video className="device-content" autoplay muted>
-                    <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />
-                  </video> */}
-              { playVideo ?
+              <img className="device-content project-img" alt="project" src={image}></img>
+              {/* { playVideo ?
                   <video className="device-content" autoPlay muted>
                     <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />
                   </video>
                   :
                   <img className="device-content project-img" alt="project" src={image}></img>
-                }
+                } */}
             </div>
             <div className="device-stripe"></div>
             <div className="device-header"></div>

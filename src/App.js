@@ -4,6 +4,7 @@ import IntroCard from './components/introCard'
 import AboutCard from './components/aboutCard'
 import ProjectList from './components/projectList'
 import Socials from './components/socials'
+import Contact from './components/contact'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <IntroCard />
         <AboutCard />
         <ProjectList />
+        <Contact />
       </div>
      </div>
      {/* <div className="gradient"></div> */}

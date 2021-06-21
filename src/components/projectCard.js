@@ -12,7 +12,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
                     <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />
                   </video> */}
               { playVideo ?
-                  <video className="device-content" autoplay muted>
+                  <video className="device-content" autoPlay muted>
                     <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />
                   </video>
                   :

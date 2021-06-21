@@ -34,9 +34,7 @@ const projects = [
     deployed: 'https://simonbystrom.github.io/YouTube-clone-DESIGN-/',
     git: 'https://github.com/SimonBystrom/YouTube-clone-DESIGN-',
     device: 'macbook'
-  },
-
-
+  }
 ]
 
 export {projects}

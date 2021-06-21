@@ -4,7 +4,7 @@
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
     border-radius: 5px;
     max-width: 600px;
-    min-width: 400px;
+    // min-width: 400px;
     min-height: 400px;
     padding: 24px 50px;
     h2{
@@ -26,20 +26,30 @@
 }
 
 .about-skills{
-    max-width: 600px;
-    min-width: 400px;
     padding: 20px;
     opacity: 0.85;
     h2{
         color: black;
     }
     i{
-        font-size: 80px;
+        font-size: 66px;
     }
 }
+
+
 
 .skill-icon-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, min(80px));
     grid-gap: 18px;
+}
+@media (max-width: 450px) {
+  .about-skills {
+    i {
+      font-size: 40px;
+    }
+  }
+  .skill-icon-container{
+    grid-gap: 8px;
+  }
 }

@@ -1,19 +1,66 @@
-.project-device-iphone{
-  height: 434px;
-  width: 214px;
+.project-device-iphone-8{
+  height: 436px;
+  width: 210px;
   margin-left: 48px;
 }
 
-@media(max-width: 768px){
-  .project-device{
-    margin-left: 0px;
-    margin-top: 40px;
+.project-device-macbook {
+  height: 420px;
+  width: 666px;
+}
+
+@media (max-width: 1500px){
+  .project-device-macbook{
+    height: 302px;
+    width: 518px;
   }
 }
 
+@media (max-width: 1220px) {
+    .project-device-macbook {
+      height: 259px;
+      width: 470px;
+    }
+}
+
+@media (max-width: 770px) {
+  .project-device-macbook {
+    height: 216px;
+    width: 370px;
+  }
+}
+
+@media (max-width: 450px) {
+  .project-device-macbook {
+    display: none;
+
+  }
+}
+
+@media (max-width: 450px) {
+  .project-device-iphone-8 {
+    display: none;
+
+  }
+}
+
+
+
+
+
 .project-card-info{
-  height: 434px;
+  max-height: 450px;
+  margin-bottom: 50px;
+  // max-width: 600px;
   h1{
     color: black;
+  }
+}
+
+.tech-icons{
+  margin-top: 24px;
+  i{
+    font-size: 32px;
+    margin-right: 16px;
   }
 }

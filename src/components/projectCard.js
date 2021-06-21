@@ -1,14 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-const ProjectCard = ({title, description, tech, image, movie, deployed, git}) => {
-  const device = 'phone'
+const ProjectCard = ({title, description, tech, image, movie, deployed, git, device}) => {
+  const [playVideo, setPlayVideo] = useState(false)
+
   const renderDevice = () => {
-    if(device === 'phone'){
       return (
-        <div className="project-device-iphone">
-          <div className="device device-iphone-x">
-            <div className="device-frame">
-              <img className="device-content"></img>
+        <div className={`project-device-${device}`}>
+          <div className={`device device-spacegray device-${device}`}>
+            <div className="device-frame" onMouseEnter={() => setPlayVideo(true)} onMouseLeave={() => setPlayVideo(false)}>
+              { playVideo ?
+                  <video className="device-content" autoplay muted>
+                    <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />
+                  </video>
+                  :
+                  <img className="device-content project-img" alt="project" src={image}></img>
+                }
             </div>
             <div className="device-stripe"></div>
             <div className="device-header"></div>
@@ -17,22 +23,20 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git}) =>
             <div className="device-power"></div>
           </div>
         </div>
-      )
-    } else {
-
+        )
       }
-    }
 
   return(
-    <div id="work" className="project-card-container">
-      <div className="row justify-content-around p-5 ">
-        <div className="col-sm-12 col-md-6 project-card-info mt-5">
+    <div  className="project-card-container">
+      <span className="anchor" id="work"></span>
+      <div className="row justify-content-between">
+        <div className={"col-sm-12 col-md-11 col-lg-11 col-xl-6 project-card-info"}>
           <h1>{title}</h1>
           <p>{description}</p>
-          <div className="d-flex">
-            <p>rails</p>
-            <p>CSS</p>
-            <p>Bootstrap</p>
+          <div className="d-flex tech-icons flex-wrap">
+           {tech.map((item, index) => {
+             return <i key={`tech${index}`}className={item}></i>
+           })}
           </div>
           <div className="d-flex mt-5">
             <div className="button mr-5" label="deployed">
@@ -45,7 +49,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git}) =>
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6">
+        <div className={device === 'iphone-8' ? 'col-sm-12 col-md-12 col-lg-4' : 'col-sm-12 col-md-12 col-lg-8 col-xl-5'}>
           {renderDevice()}
         </div>
       </div>

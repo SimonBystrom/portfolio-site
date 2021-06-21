@@ -1,3 +1,9 @@
+.content-container{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
 .introCard-container{
     margin-top: 12em;
     height: 100vh;
@@ -18,12 +24,25 @@
     }
 }
 
+@media(max-width: 400px){
+  .introCard-container{
+    h1{
+      font-size: 4em;
+    }
+  }
+}
+
 .about-card-container{
-    padding: 0px 100px;
+   min-height: 100vh;
+   position: relative;
+   margin-bottom: 50px;
 }
 
 .project-card-container{
-      padding: 0px 100px;
+  position: relative;
+  margin-bottom: 150px;
+  overflow: hidden;
+  padding: 0 50px;
 }
 
 
@@ -62,4 +81,9 @@
     color: black;
     font-size: 30px;
   }
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-20vh);
 }

@@ -990,24 +990,27 @@
   transform: scale(0.9) translateX(-10%);
   /* transform: scale(0.5) translateY(-50%) translateX(-50%); */
 }
-@media (max-width: 1500px){
-  .device-macbook{
+
+@media (max-width: 1500px) {
+  .device-macbook {
     transform: scale(0.7) translateX(-30%) translateY(-20%);
   }
 }
-@media (max-width: 1200px){
-  .device-macbook{
+
+@media (max-width: 1200px) {
+  .device-macbook {
     transform: scale(0.6) translateX(-10%) translateY(-40%);
   }
 }
+
 @media (max-width: 770px) {
   .device-macbook {
     transform: scale(0.5) translateX(-50%) translateY(-50%);
   }
 }
 
-@media (max-width: 400px){
-  .device-macbook{
+@media (max-width: 400px) {
+  .device-macbook {
     transform: scale(0.4) translateX(-60%);
   }
 }

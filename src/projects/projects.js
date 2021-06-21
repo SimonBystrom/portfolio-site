@@ -17,13 +17,22 @@ const projects = [
     git: 'https://github.com/SimonBystrom/movieRating',
     device: 'macbook'
   },
-    {
+  {
     title: 'Chef_Space',
     description: "AirBnB like marketplace site to help chefs without a restaurant open up pop-up restaurants for a short time by connecting them to location owners who wishes to rent out their space. (1 week project at Le Wagon). During this project I learnt a lot about how relational-databases work both N:1 and N:N. This was also the first site I had ever deployed to Heroku giving me experience with not just one but 2 different ways of deploying sites. One platform built on AWS with Heroku and one built by Google with Firebase.",
     tech: ["devicon-rails-plain", "devicon-ruby-plain", "devicon-javascript-plain", "devicon-html5-plain", "devicon-sass-original", "devicon-googlecloud-plain", "devicon-heroku-original", "devicon-postgresql-plain", "devicon-git-plain", "devicon-github-original"],
     image: 'https://previews.dropbox.com/p/thumb/ABOGHk_l10gOhiStb58Q1TldCPwtHNNJsj18KTeKA5e1lMp-f9n-NZ_TrEoWS9Vwad9GjDH0lstLjuS1fXhiaVeNk04LVnBPzXE959vwmbEuAkZ5SR41DiPc7wXFPDYZVoCh1SRGWsJU3atKF1sSWBVvWSpuz3jCSB6iYR0k63FAktBn1WDZ13flQ1cG8-F3V8wxIBHq_aCLlcp2jPrRfQTbR7l69jCzQMcgGzOGG-3gomRgimYPnXBdJLUBgmYamo22A5gSCnI66CgW74zCQkrMjbqqfxDTZtmcgxGoV4zwWJJ_evBn9SL0p1B56ra6-wG55XxZdEeFIJUtYPoh3xlK35py8NBQCOUu2soJHPJ74Q/p.png?fv_content=true&size_mode=5',
     deployed: 'http://chefspace.herokuapp.com/',
     git: 'https://github.com/SimonBystrom/bill-bnb',
+    device: 'macbook'
+  },
+  {
+    title: 'Youtube-clone',
+    description: "A UI / design challenge I gave myself to practice CSS and creating clean React Components. During this project I learnt how to use CSS Grid and Flexbox. I also gained a better understanding of the how much responsibility a React component should have in a larger context. The site is deployed on GitHub pages.",
+    tech: ["devicon-react-original", "devicon-javascript-plain", "devicon-html5-plain", "devicon-css3-plain", "devicon-git-plain", "devicon-github-original"],
+    image: 'https://previews.dropbox.com/p/thumb/ABNcpV3-TKfWy7oOSaksWbAzc1BQGbGim9G9K0LI3e15MpkYiB2cM94C5OxDRnzrspKYgH6qSHeYIxopX5e0jb-hWFMKSCx7_kq6wkGw9dvyeO9b68rF_u5lLJR12vuUz9mka0qM3-oRZJsJzN2x8LDuFQwz13k4fGNSL6spIy-S-d1BgWeUu5Yj9Zw_ZLxl_25svg4SgMiXjwLOMf51UmVe9SK56sOaUpjoF8YteNFuirHdCLMKu_iEjYlfvXzOG5XpJ0plhs8wxrLXtIHFkzTLhaA0ZlI0jxD27RL2FcsATDZU0O59MuSIpme17rm6RXHAOViJO4s3ljctVNnbFRRMrrDrDjmu0-oOpOdekeZtig/p.png?fv_content=true&size_mode=5',
+    deployed: 'https://simonbystrom.github.io/YouTube-clone-DESIGN-/',
+    git: 'https://github.com/SimonBystrom/YouTube-clone-DESIGN-',
     device: 'macbook'
   },
 

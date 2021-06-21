@@ -40,18 +40,11 @@
   }
 }
 
-@media(max-width: 400px){
-  .introCard-container{
-    h1{
-      font-size: 4em;
-    }
-  }
-}
-
 .about-card-container{
    min-height: 100vh;
    position: relative;
    margin-bottom: 50px;
+  //  overflow-x: hidden;
 }
 
 .project-card-container{
@@ -96,6 +89,19 @@
     left: 170px;
     color: black;
     font-size: 30px;
+  }
+}
+
+@media (max-width: 450px){
+  .socials-container{
+    top: 400px;
+  }
+
+  .introCard-container{
+    margin-top: 2em;
+    h1 {
+      font-size: 3.7em;
+    }
   }
 }
 

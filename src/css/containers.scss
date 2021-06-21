@@ -25,13 +25,15 @@
     }
 }
 
-// .about-card-container{
-//     padding: 0px 100px;
-// }
+.about-card-container{
+   height: 100vh;
+   position: relative;
+}
 
-// .project-card-container{
-//       padding: 0px 100px;
-// }
+.project-card-container{
+  min-height: 100vh;
+  position: relative;
+}
 
 
 .socials-container{
@@ -69,4 +71,9 @@
     color: black;
     font-size: 30px;
   }
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-20vh);
 }

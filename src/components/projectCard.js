@@ -24,7 +24,8 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
     }
 
   return(
-    <div id="work" className="project-card-container">
+    <div  className="project-card-container">
+      <span className="anchor" id="work"></span>
       <div className="row justify-content-around ">
         <div className="col-sm-12 col-md-8 col-lg-6 project-card-info mt-5">
           <h1>{title}</h1>

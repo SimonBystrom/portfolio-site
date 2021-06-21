@@ -17,7 +17,7 @@ const ProjectList = () => {
    )
   })
   return(
-    <div className="">
+    <div>
       {projectsRender}
     </div>
   )

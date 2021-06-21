@@ -18,15 +18,15 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
           </div>
         </div>
       )
-    } else {
+    } else if(device === 'pc') {
 
       }
     }
 
   return(
     <div id="work" className="project-card-container">
-      <div className="row justify-content-around p-5 ">
-        <div className="col-sm-12 col-md-6 project-card-info mt-5">
+      <div className="row justify-content-around ">
+        <div className="col-sm-12 col-md-8 col-lg-6 project-card-info mt-5">
           <h1>{title}</h1>
           <p>{description}</p>
           <div className="d-flex tech-icons">
@@ -45,7 +45,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-6">
+        <div className="col-sm-12 col-md-8 col-lg-4">
           {renderDevice()}
         </div>
       </div>

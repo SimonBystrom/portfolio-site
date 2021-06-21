@@ -1,8 +1,7 @@
 .navbar{
     display: flex;
     flex-wrap: nowrap;
-    max-width: 50vw;
-    min-width: 200px;
+    width: 50vw;
     height: 60px;
     font-size: 24px;
     color: black;
@@ -144,5 +143,8 @@
     .navbar-links{
         margin-left: 1.5em;
         justify-content: space-around;
+    }
+    .active{
+      margin: 0px 20px;
     }
   }

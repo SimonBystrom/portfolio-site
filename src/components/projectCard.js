@@ -3,10 +3,9 @@ import React from 'react'
 const ProjectCard = ({title, description, tech, image, movie, deployed, git, device}) => {
 
   const renderDevice = () => {
-    if(device === 'phone'){
       return (
-        <div className="project-device-iphone">
-          <div className=" device device-spacegray device-iphone-8">
+        <div className={`project-device-${device}`}>
+          <div className={`device device-spacegray device-${device}`}>
             <div className="device-frame">
               <img className="device-content project-img" src={image}></img>
             </div>
@@ -17,17 +16,14 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
             <div className="device-power"></div>
           </div>
         </div>
-      )
-    } else if(device === 'pc') {
-
+        )
       }
-    }
 
   return(
     <div  className="project-card-container">
       <span className="anchor" id="work"></span>
       <div className="row justify-content-around ">
-        <div className="col-sm-12 col-md-8 col-lg-6 project-card-info mt-5">
+        <div className={device === 'iphone-8' ? "col-sm-12 col-md-8 col-lg-6 project-card-info" : "col-sm-12 col-md-8 col-lg-11 col-xl-6 project-card-info"}>
           <h1>{title}</h1>
           <p>{description}</p>
           <div className="d-flex tech-icons">
@@ -46,7 +42,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-8 col-lg-4">
+        <div className={device === 'iphone-8' ? 'col-sm-12 col-md-8 col-lg-4' : 'col-sm-12 col-md-8 col-lg-8 col-xl-5'}>
           {renderDevice()}
         </div>
       </div>

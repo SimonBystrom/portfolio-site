@@ -1,7 +1,26 @@
-.project-device-iphone{
-  height: 434px;
-  width: 214px;
+.project-device-iphone-8{
+  height: 436px;
+  width: 210px;
   margin-left: 48px;
+}
+
+.project-device-macbook {
+  height: 389px;
+  width: 666px;
+}
+
+@media (max-width: 1500px){
+  .project-device-macbook{
+    height: 302px;
+    width: 518px;
+  }
+}
+
+@media (max-width: 1220px) {
+    .project-device-macbook {
+      height: 259px;
+      width: 444px;
+    }
 }
 
 @media(max-width: 768px){
@@ -13,7 +32,7 @@
 
 .project-card-info{
   height: 434px;
-  max-width: 600px;
+  // max-width: 600px;
   h1{
     color: black;
   }

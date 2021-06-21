@@ -8,6 +8,9 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
         <div className={`project-device-${device}`}>
           <div className={`device device-spacegray device-${device}`}>
             <div className="device-frame" onMouseEnter={() => setPlayVideo(true)} onMouseLeave={() => setPlayVideo(false)}>
+                  {/* <video className="device-content" autoplay muted>
+                    <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />
+                  </video> */}
               { playVideo ?
                   <video className="device-content" autoplay muted>
                     <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />

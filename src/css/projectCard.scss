@@ -5,7 +5,7 @@
 }
 
 .project-device-macbook {
-  height: 389px;
+  height: 420px;
   width: 666px;
 }
 
@@ -19,8 +19,22 @@
 @media (max-width: 1220px) {
     .project-device-macbook {
       height: 259px;
-      width: 444px;
+      width: 470px;
     }
+}
+
+@media (max-width: 770px) {
+  .project-device-macbook {
+    height: 216px;
+    width: 370px;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-device-macbook {
+    height: 172px;
+    width: 274px;
+  }
 }
 
 @media(max-width: 768px){
@@ -30,8 +44,12 @@
   }
 }
 
+
+
+
 .project-card-info{
-  height: 434px;
+  max-height: 434px;
+  margin-bottom: 50px;
   // max-width: 600px;
   h1{
     color: black;

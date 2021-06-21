@@ -5,7 +5,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
 
   const renderDevice = () => {
       return (
-        <div className={`project-device-${device}`}>
+        <div data-aos={device === "iphone-8" ? "zoom-in" : "flip-up"} className={`project-device-${device}`}>
           <div className={`device device-spacegray device-${device}`}>
             <div className="device-frame" onMouseEnter={() => setPlayVideo(true)} onMouseLeave={() => setPlayVideo(false)}>
                   {/* <video className="device-content" autoplay muted>
@@ -34,7 +34,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
       <span className="anchor" id="work"></span>
       <div className="row justify-content-between">
         <div className={"col-sm-12 col-md-11 col-lg-11 col-xl-6 project-card-info"}>
-          <h1>{title}</h1>
+          <h1 className="border-bottom border-dark">{title}</h1>
           <p>{description}</p>
           <div className="d-flex tech-icons flex-wrap">
            {tech.map((item, index) => {

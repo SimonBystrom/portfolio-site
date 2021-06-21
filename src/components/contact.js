@@ -17,7 +17,7 @@ const Contact = () => {
 
   return(
     <div className="d-flex justify-content-center align-items-center contact">
-      <div className="contact-container">
+      <div data-aos="fade-up" className="contact-container">
         <i class="fas fa-paper-plane"></i>
         <span className="anchor" id="contact"></span>
         <form className="contact-form" onSubmit={sendEmail}>

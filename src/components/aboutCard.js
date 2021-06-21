@@ -20,25 +20,25 @@ const AboutCard = () => {
         <div  className="col-sm-12 col-md-8 col-lg-5 about-skills">
           <h2>Languages</h2>
           <div  className="mb-3 skill-icon-container">
-              <i data-aos="fade-left" data-aos-duration="450" className="devicon-javascript-plain"></i>
-              <i data-aos="fade-left" data-aos-duration="550" className="devicon-html5-plain"></i>
-              <i data-aos="fade-left" data-aos-duration="650" className="devicon-css3-plain"></i>
-              <i data-aos="fade-left" data-aos-duration="750" className="devicon-ruby-plain"></i>
-              <i data-aos="fade-left" data-aos-duration="850" className="devicon-postgresql-plain"></i>
+              <i data-aos="fade-left" data-aos-duration="500" className="devicon-javascript-plain"></i>
+              <i data-aos="fade-left" data-aos-duration="1000" className="devicon-html5-plain"></i>
+              <i data-aos="fade-left" data-aos-duration="1500" className="devicon-css3-plain"></i>
+              <i data-aos="fade-left" data-aos-duration="2000" className="devicon-ruby-plain"></i>
+              <i data-aos="fade-left" data-aos-duration="2500" className="devicon-postgresql-plain"></i>
           </div>
           <h2>Frameworks and Libraries</h2>
           <div data-aos="fade-left" className="mb-3 skill-icon-container">
-              <i data-aos="fade-left" data-aos-duration="450" className="devicon-react-original"></i>
-              <i data-aos="fade-left" data-aos-duration="550" className="devicon-rails-plain"></i>
-              <i data-aos="fade-left" data-aos-duration="650" className="devicon-bootstrap-plain"></i>
-              <i data-aos="fade-left" data-aos-duration="750" className="devicon-sass-original"></i>
-              <i data-aos="fade-left" data-aos-duration="850" className="devicon-github-original"></i>
+              <i data-aos="fade-left" data-aos-duration="500" className="devicon-react-original"></i>
+              <i data-aos="fade-left" data-aos-duration="1000" className="devicon-rails-plain"></i>
+              <i data-aos="fade-left" data-aos-duration="1500" className="devicon-bootstrap-plain"></i>
+              <i data-aos="fade-left" data-aos-duration="2000" className="devicon-sass-original"></i>
+              <i data-aos="fade-left" data-aos-duration="2500" className="devicon-github-original"></i>
           </div>
           <h2>Other technologies</h2>
           <div data-aos="fade-left" className="skill-icon-container">
-            <i data-aos="fade-left" data-aos-duration="450" className="devicon-git-plain"></i>
-            <i data-aos="fade-left" data-aos-duration="650" className="devicon-heroku-original"></i>
-            <i data-aos="fade-left" data-aos-duration="850" className="devicon-firebase-plain"></i>
+            <i data-aos="fade-left" data-aos-duration="500" className="devicon-git-plain"></i>
+            <i data-aos="fade-left" data-aos-duration="1000" className="devicon-heroku-original"></i>
+            <i data-aos="fade-left" data-aos-duration="1500" className="devicon-firebase-plain"></i>
           </div>
         </div>
       </div>

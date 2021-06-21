@@ -5,7 +5,7 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
 
   const renderDevice = () => {
       return (
-        <div className={`project-device-${device}`}>
+        <div data-aos={device === "iphone-8" ? "zoom-in" : "flip-up"} className={`project-device-${device}`}>
           <div className={`device device-spacegray device-${device}`}>
             <div className="device-frame" onMouseEnter={() => setPlayVideo(true)} onMouseLeave={() => setPlayVideo(false)}>
                   {/* <video className="device-content" autoplay muted>

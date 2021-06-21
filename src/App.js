@@ -2,7 +2,7 @@ import './App.scss';
 import Navbar from './components/navbar'
 import IntroCard from './components/introCard'
 import AboutCard from './components/aboutCard'
-import ProjectCard from './components/projectCard'
+import ProjectList from './components/projectList'
 import Socials from './components/socials'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <div className='content-container'>
         <IntroCard />
         <AboutCard />
-        <ProjectCard />
+        <ProjectList />
       </div>
      </div>
      {/* <div className="gradient"></div> */}

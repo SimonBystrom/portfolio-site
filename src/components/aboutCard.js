@@ -28,7 +28,7 @@ const AboutCard = () => {
               <i className="devicon-react-original"></i>
               <i className="devicon-rails-plain"></i>
               <i className="devicon-bootstrap-plain"></i>
-
+              <i className="devicon-sass-original"></i>
               <i className="devicon-github-original"></i>
           </div>
           <h2>Other technologies</h2>

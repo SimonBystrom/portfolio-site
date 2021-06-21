@@ -1,14 +1,14 @@
 import React from 'react'
 
-const ProjectCard = ({title, description, tech, image, movie, deployed, git}) => {
-  const device = 'phone'
+const ProjectCard = ({title, description, tech, image, movie, deployed, git, device}) => {
+
   const renderDevice = () => {
     if(device === 'phone'){
       return (
         <div className="project-device-iphone">
-          <div className="device device-iphone-x">
+          <div className=" device device-spacegray device-iphone-8">
             <div className="device-frame">
-              <img className="device-content"></img>
+              <img className="device-content project-img" src={image}></img>
             </div>
             <div className="device-stripe"></div>
             <div className="device-header"></div>
@@ -29,10 +29,10 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git}) =>
         <div className="col-sm-12 col-md-6 project-card-info mt-5">
           <h1>{title}</h1>
           <p>{description}</p>
-          <div className="d-flex">
-            <p>rails</p>
-            <p>CSS</p>
-            <p>Bootstrap</p>
+          <div className="d-flex tech-icons">
+           {tech.map((item) => {
+             return <i className={item}></i>
+           })}
           </div>
           <div className="d-flex mt-5">
             <div className="button mr-5" label="deployed">

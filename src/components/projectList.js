@@ -1,11 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import {projects} from '../projects/projects'
 import ProjectCard from './projectCard'
 
 const ProjectList = () => {
 
-  let projectsRender = projects.map(project => {
+  let projectsRender = projects.map((project, index) => {
    return( <ProjectCard
+      key={index}
       title={project.title}
       description={project.description}
       tech={project.tech}

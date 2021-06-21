@@ -31,8 +31,8 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
           <h1>{title}</h1>
           <p>{description}</p>
           <div className="d-flex tech-icons">
-           {tech.map((item) => {
-             return <i className={item}></i>
+           {tech.map((item, index) => {
+             return <i key={`tech${index}`}className={item}></i>
            })}
           </div>
           <div className="d-flex mt-5">

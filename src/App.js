@@ -8,6 +8,7 @@ import Socials from './components/socials'
 import Contact from './components/contact'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import MetaTags from 'react-meta-tags'
 
 function App() {
 
@@ -19,9 +20,15 @@ function App() {
 
   return (
     <div className="App">
-     <div className='content-wrapper'>
-      <Navbar />
-      <Socials />
+      <MetaTags>
+        <title>SB-portfolio</title>
+        <meta name="description" content="A portfolio site for Simon Bokedal Bystrom showcasing some of the web dev work he's done."/>
+        <meta property="og:title" content="Simon Bokedal Bystrom - Portfolio"/>
+        <meta property="og:image" content="/Users/simonbystrom/code/SimonBystrom/portfolio/public/og-image.png"/>
+      </MetaTags>
+      <div className='content-wrapper'>
+        <Navbar />
+        <Socials />
       <div className='content-container'>
         <IntroCard />
         <AboutCard />

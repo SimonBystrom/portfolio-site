@@ -24,7 +24,7 @@ function App() {
         <title>Simon Bystrom</title>
         <meta name="description" content="A portfolio site for Simon Bokedal Bystrom showcasing some of the web dev work he's done."/>
         <meta property="og:title" content="Simon Bokedal Bystrom - Portfolio"/>
-        <meta property="og:image" content="/Users/simonbystrom/code/SimonBystrom/portfolio/public/og-image.png"/>
+        <meta property="og:image" content="https://i.imgur.com/m2OnpFL.png"/>
       </MetaTags>
       <div className='content-wrapper'>
         <Navbar />

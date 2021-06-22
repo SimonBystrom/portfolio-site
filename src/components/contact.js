@@ -18,7 +18,7 @@ const Contact = () => {
   return(
     <div className="d-flex justify-content-center align-items-center contact">
       <div data-aos="fade-up" className="contact-container">
-        <i class="fas fa-paper-plane"></i>
+        <i className="fas fa-paper-plane"></i>
         <span className="anchor" id="contact"></span>
         <form className="contact-form" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" />
@@ -34,7 +34,7 @@ const Contact = () => {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" id="message" name="message" />
           </div>
-          <input class="button button-send" type="submit" value="Send" />
+          <input className="button button-send" type="submit" value="Send" />
         </form>
       </div>
     </div>

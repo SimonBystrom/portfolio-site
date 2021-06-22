@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <MetaTags>
-        <title>SB-portfolio</title>
+        <title>Simon Bystrom</title>
         <meta name="description" content="A portfolio site for Simon Bokedal Bystrom showcasing some of the web dev work he's done."/>
         <meta property="og:title" content="Simon Bokedal Bystrom - Portfolio"/>
         <meta property="og:image" content="/Users/simonbystrom/code/SimonBystrom/portfolio/public/og-image.png"/>

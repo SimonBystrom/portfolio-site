@@ -6,7 +6,8 @@ const projects = [
     image: 'https://i.imgur.com/aG0f5a8.png',
     deployed: 'http://www.split-it.me/',
     git: 'https://github.com/SimonBystrom/split-it',
-    device: 'iphone-8'
+    device: 'iphone-8',
+    key: '1'
   },
   {
     title: 'Movie Ratings',
@@ -15,7 +16,8 @@ const projects = [
     image: 'https://i.imgur.com/BrfuKvK.png',
     deployed: 'https://movieratings-9f806.firebaseapp.com/',
     git: 'https://github.com/SimonBystrom/movieRating',
-    device: 'macbook'
+    device: 'macbook',
+    key: '2'
   },
   {
     title: 'Chef_Space',
@@ -24,7 +26,8 @@ const projects = [
     image: 'https://i.imgur.com/mV4QS4v.png',
     deployed: 'http://chefspace.herokuapp.com/',
     git: 'https://github.com/SimonBystrom/bill-bnb',
-    device: 'macbook'
+    device: 'macbook',
+    key: '3'
   },
   {
     title: 'Youtube-clone',
@@ -33,7 +36,8 @@ const projects = [
     image: 'https://i.imgur.com/d6FGgZ2.png',
     deployed: 'https://simonbystrom.github.io/YouTube-clone-DESIGN-/',
     git: 'https://github.com/SimonBystrom/YouTube-clone-DESIGN-',
-    device: 'macbook'
+    device: 'macbook',
+    key: '4'
   }
 ]
 

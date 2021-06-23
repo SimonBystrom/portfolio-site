@@ -13,6 +13,14 @@ const Contact = () => {
           console.log(error.text);
       });
       e.target.reset();
+      const alert = document.querySelector('.alert-email-success');
+      alert.addEventListener('transitionend', (e) => {
+        setTimeout(()=> {
+          alert.classList.remove('alert-active')
+        }, 4000)
+      })
+      alert.classList.add('alert-active')
+
   }
 
   return(
@@ -34,7 +42,13 @@ const Contact = () => {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" id="message" name="message" />
           </div>
-          <input className="button button-send" type="submit" value="Send" />
+          <div className="form-button-container">
+            <input className="button button-send" type="submit" value="Send" />
+            <div className="alert-email-success">
+              <i className="fas fa-check-square"></i>
+              <p>Thank you for reaching out!</p>
+            </div>
+          </div>
         </form>
       </div>
     </div>

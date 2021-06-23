@@ -22,23 +22,9 @@
         margin-bottom: 0;
 
     }
-    i{
-      margin-top: 180px;
-      font-size: 24px;
-      color: white;
-      text-shadow: 0 1px 8px rgba(0,0,0, 0.2);
-      animation: down-arrow 1s infinite alternate;
-    }
 }
 
-@keyframes down-arrow{
-  0%{
-    margin-top: 180px;
-  }
-  100%{
-    margin-top: 174px;
-  }
-}
+
 
 .about-card-container{
    min-height: 100vh;

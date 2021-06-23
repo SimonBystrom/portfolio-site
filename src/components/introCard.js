@@ -7,7 +7,10 @@ const IntroCard = () => {
             <div className="intro-subtitle">
                 <h2>I'm a fullstack developer</h2>
             </div>
-            <i className="fas fa-chevron-down"></i>
+            <div className="down-arrow" label="chevron-link">
+              <i className="fas fa-chevron-down"></i>
+              <a id="chevron-link" href="#about"><span></span></a>
+            </div>
         </div>
     )
 }

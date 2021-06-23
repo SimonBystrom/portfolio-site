@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 
-const ProjectCard = ({title, description, tech, image, movie, deployed, git, device, key}) => {
+const ProjectCard = ({title, description, tech, image, movie, deployed, git, device, order}) => {
   const [playVideo, setPlayVideo] = useState(false)
+  const [currentWidth, setCurrentWidth] = useState(window.innerWidth)
   const renderDevice = () => {
       return (
         <div className={device === 'iphone-8' ? 'col-sm-12 col-md-12 col-lg-4' : 'col-sm-12 col-md-12 col-lg-8 col-xl-5'}>
@@ -52,31 +53,45 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
       )
     }
 
-  // const renderOrder = () => {
-  //   if(key % 0 === 0) {
-  //     return(
-  //      <div className="row justify-content-between">
-  //         {renderInfo()}
-  //         {renderDevice()}
-  //      </div>
-  //     )
-  //   } else {
-  //      return(
-  //       <div className="row justify-content-between">
-  //         {renderDevice()}
-  //         {renderInfo()}
-  //       </div>
-  //     )
-  //   }
-  // }
+  // dynamically renders the order of the device / info depending on screen size
+  const renderOrder = () => {
+    // Checks the current width of the screen and updates the state -> rerender if screen resizes
+    function currentWidthChecker(e) {
+      setCurrentWidth(this.innerWidth)
+    }
+    window.addEventListener('resize', currentWidthChecker)
+
+    // displays the projects left -> right / right -> left if the screen size is bigger than 1200, if not device on bottom
+    if(currentWidth > 1200){
+      if(order % 2 === 0) {
+        return(
+         <div className="row justify-content-between">
+            {renderInfo()}
+            {renderDevice()}
+         </div>
+        )
+      } else {
+         return(
+          <div className="row justify-content-between">
+            {renderDevice()}
+            {renderInfo()}
+          </div>
+        )
+      }
+    } else {
+      return(
+        <div className="row justify-content-between">
+          {renderInfo()}
+          {renderDevice()}
+        </div>
+      )
+    }
+  }
 
   return(
     <div  className="project-card-container">
       <span className="anchor" id="work"></span>
-       <div className="row justify-content-between">
-        {renderInfo()}
-        {renderDevice()}
-      </div>
+      {renderOrder()}
     </div>
   )
 }

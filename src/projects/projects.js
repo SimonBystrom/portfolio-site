@@ -7,7 +7,6 @@ const projects = [
     deployed: 'http://www.split-it.me/',
     git: 'https://github.com/SimonBystrom/split-it',
     device: 'iphone-8',
-    key: '1'
   },
   {
     title: 'Movie Ratings',
@@ -17,7 +16,6 @@ const projects = [
     deployed: 'https://movieratings-9f806.firebaseapp.com/',
     git: 'https://github.com/SimonBystrom/movieRating',
     device: 'macbook',
-    key: '2'
   },
   {
     title: 'Chef_Space',
@@ -27,7 +25,6 @@ const projects = [
     deployed: 'http://chefspace.herokuapp.com/',
     git: 'https://github.com/SimonBystrom/bill-bnb',
     device: 'macbook',
-    key: '3'
   },
   {
     title: 'Youtube-clone',
@@ -37,7 +34,6 @@ const projects = [
     deployed: 'https://simonbystrom.github.io/YouTube-clone-DESIGN-/',
     git: 'https://github.com/SimonBystrom/YouTube-clone-DESIGN-',
     device: 'macbook',
-    key: '4'
   }
 ]
 

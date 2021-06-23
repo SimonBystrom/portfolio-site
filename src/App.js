@@ -9,6 +9,7 @@ import Contact from './components/contact'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import MetaTags from 'react-meta-tags'
+import {smoothScroll} from './functions/smoothScroll'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     AOS.init({
       duration: 1200,
     })
+    smoothScroll();
   }, [])
 
   return (

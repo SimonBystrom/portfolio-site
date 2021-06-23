@@ -6,7 +6,8 @@ const ProjectList = () => {
 
   let projectsRender = projects.map((project, index) => {
    return( <ProjectCard
-      key={project.key}
+      key={index}
+      order={index}
       title={project.title}
       description={project.description}
       tech={project.tech}

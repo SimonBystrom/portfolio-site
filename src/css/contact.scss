@@ -1,0 +1,13 @@
+
+.contact {
+  height: 100vh;
+}
+
+.alert-email-success{
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.alert-active{
+  opacity: 1;
+}

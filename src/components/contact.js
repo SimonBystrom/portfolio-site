@@ -42,9 +42,12 @@ const Contact = () => {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" id="message" name="message" />
           </div>
-          <div className="d-flex justify-content-between">
+          <div className="form-button-container">
             <input className="button button-send" type="submit" value="Send" />
-            <div className="alert-email-success">test</div>
+            <div className="alert-email-success">
+              <i className="fas fa-check-square"></i>
+              <p>Thank you for reaching out!</p>
+            </div>
           </div>
         </form>
       </div>

@@ -10,12 +10,12 @@ const AboutCard = () => {
         <div className="col-sm-12 col-md-8 col-lg-5 about-card">
                 <h2>About Me</h2>
                 <h5><span>Hi, I’m Simon! </span></h5>
-                <p>Originally from Sweden 🇸🇪, but been living in Tokyo 🇯🇵 since 2015.</p>
+                <p>Originally from Stockholm 🇸🇪, but been living in Tokyo 🇯🇵 since 2015.</p>
                 <h5><span>Background</span></h5>
-                <p>Animation, design and movie history but my true love is code!
-                    I really love working on Frontend solutions and solving the puzzles of the backend.</p>
+                <p>Animation, design and movie history but my true passion is code!
+                    I really love working on Frontend solutions and solving puzzles of the backend.</p>
                 <h5><span>When I’m not coding</span></h5>
-                <p> I also love Judo, Video games and fine Cocktails!</p>
+                <p> I'm into Judo, video games and both making and drinking fine cocktails!</p>
         </div>
         <div  className="col-sm-12 col-md-8 col-lg-5 about-skills">
           <h2>Languages</h2>

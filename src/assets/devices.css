@@ -166,6 +166,12 @@
   transform: scale(0.5) translateY(-50%) translateX(-50%);
 }
 
+@media (max-width: 770px){
+  .device-iphone-8{
+    transform: scale(0.4) translateX(-90%) translateY(-60%);
+  }
+}
+
 .device-iphone-8 .device-frame {
   background: #fff;
   border-radius: 68px;
@@ -999,13 +1005,13 @@
 
 @media (max-width: 1200px) {
   .device-macbook {
-    transform: scale(0.6) translateX(-10%) translateY(-40%);
+    transform: scale(0.6) translateX(-40%) translateY(-40%);
   }
 }
 
 @media (max-width: 770px) {
   .device-macbook {
-    transform: scale(0.5) translateX(-50%) translateY(-50%);
+    transform: scale(0.4) translateX(-80%) translateY(-80%);
   }
 }
 

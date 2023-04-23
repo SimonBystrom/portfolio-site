@@ -9,14 +9,14 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
           <div data-aos={device === "iphone-8" ? "zoom-in" : "flip-up"} className={`project-device-${device}`}>
             <div className={`device device-spacegray device-${device}`}>
               <div className="device-frame" onMouseEnter={() => setPlayVideo(true)} onMouseLeave={() => setPlayVideo(false)}>
-                <img className="device-content project-img" alt="project" src={image}></img>
-                {/* { playVideo ?
-                    <video className="device-content" autoPlay muted>
-                      <source src='/Users/simonbystrom/code/SimonBystrom/portfolio/src/assets/videos/split-it.mp4' type="video/mp4" />
+                {/* <img className="device-content project-img" alt="project" src={image}></img> */}
+                { playVideo ?
+                    <video className="device-content" autoPlay muted loop>
+                      <source src={movie} type="video/mp4" />
                     </video>
                     :
                     <img className="device-content project-img" alt="project" src={image}></img>
-                  } */}
+                  }
               </div>
               <div className="device-stripe"></div>
               <div className="device-header"></div>
@@ -40,14 +40,18 @@ const ProjectCard = ({title, description, tech, image, movie, deployed, git, dev
           })}
           </div>
           <div className="d-flex mt-5">
-            <div className="button mr-5" label="deployed">
-              Site
-              <a id="deployed" href={deployed} target="_blank" rel="noreferrer"><span></span></a>
-            </div>
-            <div className="button git" label="git">
-              Code
-              <a id="git" href={git} target="_blank" rel="noreferrer"><span></span></a>
-            </div>
+            {deployed &&
+              <div className="button mr-5" label="deployed">
+                Site
+                <a id="deployed" href={deployed} target="_blank" rel="noreferrer"><span></span></a>
+              </div>
+            }
+            {git &&
+              <div className="button git" label="git">
+                Code
+                <a id="git" href={git} target="_blank" rel="noreferrer"><span></span></a>
+              </div>
+            }
           </div>
         </div>
       )

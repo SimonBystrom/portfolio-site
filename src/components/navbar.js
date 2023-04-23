@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className={ opened ? 'navbar-links active' : 'navbar-links' }>
                 <a href='#about'>About</a>
                 <a href='#work'>Work</a>
-                <a href='#contact'>Contact</a>
+                <a href='mailto:simon.bystrom@hyperisland.se?subject=Site-Contact'>Contact</a>
             </div>
         </nav>
     )

@@ -18,6 +18,7 @@
     background: linear-gradient(35deg, rgba(134,231,184,1) 13%, rgba(0,148,198,1) 45%, rgba(250,172,182,1) 70%, rgba(184,134,231,1) 100%);
     background-size: 450%;
     position: relative;
+    animation: movingGradient 45s ease infinite;
 }
 
 .foreground{
@@ -37,3 +38,15 @@
     z-index: 1;
 }
 
+
+@keyframes movingGradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}

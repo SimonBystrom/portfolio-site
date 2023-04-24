@@ -35,7 +35,7 @@ function App() {
       <div className='content-container'>
         <IntroCard />
         <AboutCard />
-        <ProjectList />
+        {/* <ProjectList /> */}
         {/* <Contact /> */}
       </div>
      </div>
